@@ -9,7 +9,7 @@ header{
     margin: 0 auto;
 }
 
-nav{
+nav{                                    /*coloca o menu de navegação lá pro lado*/
     position: absolute;
     top: 110px;
     right: 0;
@@ -79,4 +79,16 @@ border-color: orange;
 
 .produto-descricao{
     font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+
 }
