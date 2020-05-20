@@ -1,0 +1,116 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px; /*largura de margem padrao*/
+    margin: 0 auto;
+}
+
+nav{                                    /*coloca o menu de navegação lá pro lado*/
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline; /* deixa os elementos em linha*/
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase; /*Deixa tudo em maiusculo */
+    font-weight: bold;  /*Deixa negrito */
+    font-size: 22px;    /*Aumenta a fonte */
+    color: black;   
+    text-decoration: none; /*Tira o sublinhado do link */
+}
+
+nav a:hover{                            /* muda comportamento quando passa o mouse em cima */
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.produtos {                                     
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;  /* espacamento intero */
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top; /*alinha pela linha de cima*/
+    margin: 0 1.5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;   /*coloca borda na margem*/
+}
+
+.produtos li:hover {                                /* muda comportamento quando passa o mouse em cima */
+border-color: orange;
+
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+.produtos li:active{                                    /* muda comportamento quando clica */
+    border-color: blue;
+
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0px 0 10px; /*espaco entre cada um dos itens*/
+}
+
+form input{
+    display: block;
+    margin: 0px 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
