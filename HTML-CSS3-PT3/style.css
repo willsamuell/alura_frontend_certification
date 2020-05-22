@@ -102,15 +102,19 @@ form{
     margin: 40px 0;
 }
 
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0px 0 10px; /*espaco entre cada um dos itens*/
 }
 
-form input{
+.input-padrao{
     display: block;
     margin: 0px 0 20px;
     padding: 10px 20px;
     width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0px;
 }
