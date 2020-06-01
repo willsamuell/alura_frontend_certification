@@ -118,3 +118,46 @@ form label, form legend{
 .checkbox{
     margin: 20px 0px;
 }
+
+.enviar{                   /*para centralizar um input submit tem que colocar block*/     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 15px 0px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;      /*transição de cor do botão*/
+    cursor: pointer;                /*faz o botao ficar mãozinha*/
+    
+
+}
+
+.enviar:hover{
+    background: black;
+    transform: scale(1.1);
+
+}
+
+table {
+    margin: 20px 0 40px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+thead {
+    background: gray;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
